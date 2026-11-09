@@ -14,11 +14,11 @@ void loop() {
   // put your main code here, to run repeatedly:
   digitalWrite(4, HIGH);
   digitalWrite(7, LOW);
-  delay(1000);
+  delay(500);
   digitalWrite(4, LOW);
   digitalWrite(3, HIGH);
-  delay(1000);
+  delay(500);
   digitalWrite(3, LOW);
   digitalWrite(7, HIGH);
-  delay(1000);
+  delay(500);
 }
